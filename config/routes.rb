@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
 
-  resources :pages, only: [:index]
-  resources :article, only: [:index]
+  # resources :pages, only: [:index]
+  # resources :article, only: [:index]
 
   # match '*article', to: 'article#index', via: :all
   # match '*page', to: 'pages#index', via: :all
